@@ -4,6 +4,8 @@ import React from "react";
 import Navbar from "./navbar/Navbar";
 import Hero2 from "./components/Hero2";
 import ArtSection from "./components/ArtSection";
+import Carousel from "./components/carousel";
+
 
 
 
@@ -15,6 +17,7 @@ export default function Home() {
       <Hero2 />
       
      <ArtSection />
+     <Carousel />
       <Navbar />
     </div>
   );
