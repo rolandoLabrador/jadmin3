@@ -1,5 +1,5 @@
 import React, { useRef } from 'react';
-import data from "@/ArtHeroData";
+import data from "../../ArtCarouselData";
 
 const Carousel = () => {
   const carouselRef = useRef<HTMLDivElement>(null);
@@ -24,9 +24,6 @@ const Carousel = () => {
       >
         &lt;
       </button>
-
-
-
       <div ref={carouselRef} className="carousel p-10 overflow-x-auto whitespace-nowrap scroll-smooth">
         {data.map((item) => (
           <div key={item.id} className="carousel-item inline-block mx-2">
@@ -41,10 +38,6 @@ const Carousel = () => {
           </div>
         ))}
       </div>
-
-
-
-      
       <button 
         className="absolute right-0 top-1/2 transform -translate-y-1/2 bg-gray-800 text-white p-2 z-10"
         onClick={scrollRight}
