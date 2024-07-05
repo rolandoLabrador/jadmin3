@@ -10,13 +10,16 @@ import Carousel from "./components/carousel";
 
 
 
+
+
 export default function Home() {
   return (
     <div>
       <Navbar />
       <Hero2 />
-      
+     
      <ArtSection />
+    
      <Carousel />
       <Navbar />
     </div>
