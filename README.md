@@ -80,3 +80,4 @@ eslint-config-prettier is a configuration that disables all ESLint rules that ar
 prettier-plugin-tailwindcss is a Prettier plugin that helps format Tailwind CSS code in a consistent and readable way.
 ## start on your homepage. # jadmin3
 # jadmin3
+1
